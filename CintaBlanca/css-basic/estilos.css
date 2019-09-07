@@ -1,0 +1,21 @@
+.header{
+  border: solid 4px green;
+  /* background: gray; */
+}
+
+.cajita{
+  border: solid 1px red;
+  margin-right: 10%;
+  padding: 15%;
+  /*background: #3354fa;*/
+  /* background: rgb(254, 255, 255); */
+  /* Hex color pikcer - Herramienta de Google */
+  background: rgba(0,0,0, 0.1) /* El cuarto parametro es opacidad */
+  /*padding right: 50px;*/
+}
+
+.perfil{
+  width:600px;
+  /*border-radius: 10px;*/
+  border-radius: 50%;
+}

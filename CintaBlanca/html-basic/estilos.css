@@ -1,0 +1,25 @@
+h1 {
+  background: blue;
+  color: orange;
+  font-family: Arial;
+}
+
+h2 {
+  background: black;
+  color: white;
+  font-family: Times;
+}
+
+h3 {
+  background: purple;
+  color: yellow;
+  font-family: cursive;
+}
+
+.prim {
+  width: 200px
+}
+
+.sec {
+  width: 400px
+}

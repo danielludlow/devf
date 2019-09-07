@@ -1,0 +1,452 @@
+body{
+  background:
+  linear-gradient(#0d4fa7 0%, #3072cc 60%, #6facff 100%);
+
+}
+h1{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  filter: url("#flyOn");
+  margin: 0;
+  animation: wavemover 10s infinite alternate linear;
+  text-shadow: 2px 2px 4px #f5df8d;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  margin-top: 25em;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: darkgreen;
+}
+
+.firstView{
+  background: red;
+  background-image: url("octoplus.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  border: 3px, solid, red;
+  background-position: center;
+  font-family: 'Exo 2', sans-serif;
+  color: #162958;
+}
+
+.contenido{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 13px;
+  display: block;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+.text2{
+  padding-left: 40em;
+  padding-bottom: 1em;
+}
+
+h4{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 24px;
+  margin-top:3em;
+  font-family: 'Exo 2', sans-serif;
+}
+
+p{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 22px;
+  display: block;
+}
+
+.imgclippy{
+      float: right;
+}
+
+.clippy{
+  background-image: url(clippy.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 283px;
+  height: 265px;
+  margin: 4em;
+  max-width:100%;
+  /* height:auto; */
+}
+
+
+h6{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 24px;
+  margin-top:3em;
+  font-family: 'Exo 2', sans-serif;
+  float: right;
+}
+.imgocto1{
+  float: left;
+
+}
+.octo1{
+  background-image: url(octo1.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 300px;
+  margin: 4em;
+}
+
+.etiquetas{
+  max-width: 940px;
+  margin: auto;
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
+.etiquetas2{
+  max-width: 940px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 45px;
+  background-color: #0f7ad7;
+  border-top: 1px solid darkblue;
+}
+
+.texto{
+  width: 864px;
+  height: 184px;
+  float: right;
+      font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 22px;
+    display: flex;
+    justify-content: right;
+}
+
+.imgalgo{
+      float: right;
+}
+.algoritmo{
+  background-image: url(algoritmo.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 265px;
+    margin: 3em;
+    size: 20em;
+
+}
+
+ .imgmeme{
+      float: left;
+      }
+.meme{
+  background-image: url(meme.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    margin: 30px 23px;
+    size: 20em;
+}
+
+.imgcookies{
+      float: right;
+      }
+.cookies{
+  background-image: url(cookies.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+    margin: 30px 40px;
+    size: 20em;
+}
+
+.imgredes{
+      float: left;
+}
+
+.redes{
+  background-image: url(redes.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    margin: 30px 23px;
+    size: 20em;
+}
+.text23{
+ align-items: top;
+}
+.imgchat{
+      float: right;
+}
+.chat{
+  background-image: url(chat.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 283px;
+    height: 265px;
+    margin: 4em;
+    size: 20em;
+}
+.imgamigos{
+      float: left;
+}
+.amigos{
+  background-image: url(amigos.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 265px;
+    margin: 4em;
+    size: 20em;
+}
+.imghumores{
+      float: center;
+}
+.humores{
+  background-image: url(humores.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 300px;
+    margin: 4em;
+    size: 20em;
+    border: 5px solid #162958;
+}
+.descarga{
+  width: 100%;
+  height: 8em;
+  background:
+  linear-gradient(#0d4fa7 0%, #3072cc 60%, #6facff 50%);
+  border: 1px;
+  display:flex;
+
+}
+.txt{
+
+}
+ .descargas{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 70px;
+ }
+ .descargas img{
+  margin: 10px
+ }
+.letras{
+   display: flex;
+  justify-content: center;
+
+      margin: 0;
+
+color: #162958;
+  font-size: 6em;
+  filter: url("#flyOn");
+}
+
+.footerMenu{
+  background: green;
+}
+
+.button{
+  height: 30px;
+  width: 145px;
+  background: #f4f4f4;
+  border: solid 3px;
+  color: #757575;
+  font-size: 12px;
+  font-weight: bold;
+}
+@keyframes wavemover {
+  100% {
+    padding-left: 300px;
+    transform: translateX(-100px);
+  }
+}
+.water{
+  position: absolute;
+  height: 3em;
+  width: 100%;
+  background-color: rgba(0,148, 245, 0.5);
+  z-index: 9;
+  margin-top: 55em;
+  animation: water 3.5s ease-in-out infinite;
+    backface-visibility: hidden;
+
+
+}
+.water2{
+  position: absolute;
+  height: 3em;
+  width: 100%;
+  background-color: rgba(0,148, 245, 0.5);
+  z-index: 9;
+  margin-top: 6em;
+  animation: water2 3.5s ease-in-out infinite;
+    backface-visibility: hidden;
+
+
+}
+@keyframes water {
+  0%,
+  100% {
+
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@keyframes water2 {
+  0%,
+  100% {
+
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+@media (min-width: 1200px)
+.contenido {
+    width: 970px !important;
+  }
+    @media (min-width: 1200px)
+
+.container {
+    width: 1170px;
+  }
+    @media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+
+.footer{
+  background: #192739;
+  color: #78d0e9;
+  height: 275px;
+}
+
+.endFooter{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.0001%;
+  color: #327c92;
+  margin: 5px;
+  font-size: 1.1em;
+  height: 75px;
+  /* border: solid; */
+}
+
+.footing{
+  margin: 15px;
+  /* border: solid; */
+  height: 50px;
+}
+
+.adicional{
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.redes{
+  /* border: solid; */
+  height: 180px;
+  margin: 20px;
+}
+
+.soporte{
+  /* border: solid; */
+  height: 180px;
+  margin: 20px;
+}
+
+.acercaDe{
+  /* border: solid; */
+  height: 180px;
+  margin: 20px;
+  display: inline;
+}
+
+h8{
+  filter: url("#flyOn");
+  font-size: 4em;
+  margin: 0;
+  color: black;
+   /* animation: wavemover 10s infinite alternate linear; */
+   text-shadow: 2px 2px 4px #f5df8d;
+   color: white;
+}
+
+.tits{
+  color: white;
+}
+
+.pad{
+  margin: 5px;
+}
+
+.pad2{
+  color: white;
+}
+
+.columna{
+  height: 180px;
+  /* border: solid; */
+}
